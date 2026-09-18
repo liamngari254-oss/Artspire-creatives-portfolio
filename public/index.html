@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artspire — Igniting Ideas, Inspiring Art</title>
+<meta name="description" content="Artspire is a graphic design brand that turns ideas into visual experiences that communicate, connect, and sell.">
+<meta name="theme-color" content="#164147">
+<link rel="icon" href="/assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<a href="#top" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand-logo"><img src="/assets/logo.png" alt="Artspire — Igniting Ideas, Inspiring Art"></a>
+    <nav class="site-nav" id="site-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#contact" class="nav-cta">Start a project</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-reveal">
+        <p class="hero-eyebrow">Artspire — graphic design brand</p>
+        <h1 id="hero-headline">Loading…</h1>
+        <p class="subhead" id="hero-subhead"></p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See our work</a>
+          <a href="#contact" class="btn btn-ghost">Start a project</a>
+        </div>
+      </div>
+
+      <!-- Hero image slot: replaced from the CMS (Hero tab → Hero image).
+           Falls back to the brand colour bars if no photo is uploaded. -->
+      <div class="hero-media" id="hero-media">
+        <div class="hero-media-inner" id="hero-media-inner">
+          <div class="hero-swatch" aria-hidden="true">
+            <span class="sw-white"></span>
+            <span class="sw-cocoa"></span>
+            <span class="sw-orange"></span>
+            <span class="sw-navy"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section section-white" id="what-we-do">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p class="lede" id="wwd-intro"></p>
+      </div>
+      <div class="offer-grid" id="offer-grid"></div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section section-white" id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p class="lede">Open any project to flip through the full set of images.</p>
+      </div>
+      <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter work by category"></div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-navy" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <p class="hero-eyebrow" id="about-eyebrow">The story behind Artspire</p>
+        <p class="about-quote" id="about-philosophy"></p>
+      </div>
+      <div class="about-body">
+        <p id="about-story"></p>
+        <p class="about-signature" id="about-founder"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section-white" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Services</h2>
+        <p class="lede">Where to start, depending on what you need said.</p>
+      </div>
+      <div class="services-list" id="services-list"></div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section class="section section-white" id="case-studies">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Case studies</h2>
+        <p class="lede">A closer look at the thinking behind a few projects.</p>
+      </div>
+      <div class="case-list" id="case-list"></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section section-cocoa" id="why-us">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Why work with Artspire</h2>
+      </div>
+      <div class="why-grid" id="why-grid"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-white" id="testimonials">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What clients say</h2>
+      </div>
+      <div class="testi-grid" id="testi-grid"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section-orange cta-band">
+    <div class="wrap">
+      <h2 id="cta-headline"></h2>
+      <a href="#contact" class="btn btn-ghost" id="cta-button" style="border-color: rgba(251,241,240,0.7);"></a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer class="section section-navy" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>Let's talk about your project</h2>
+        <ul class="contact-list" id="contact-list"></ul>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
+        <input type="email" name="email" placeholder="Your email" autocomplete="email" required>
+        <textarea name="message" placeholder="Tell us about your project" required></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="send-email-btn">Send by email</button>
+          <button type="button" class="btn btn-whatsapp" id="send-whatsapp-btn" hidden>Send on WhatsApp</button>
+        </div>
+        <p class="form-note" id="contact-form-note"></p>
+      </form>
+    </div>
+    <div class="wrap site-footer-bottom">
+      <span>© <span id="year"></span> Artspire. All rights reserved.</span>
+      <a href="/admin">Admin login</a>
+    </div>
+  </footer>
+
+</main>
+
+<!-- Floating WhatsApp button (shows only when a WhatsApp number is set in the CMS) -->
+<a class="wa-float" id="wa-float" href="#" target="_blank" rel="noopener" aria-label="Chat with Artspire on WhatsApp" hidden>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.95 1.16-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+</a>
+
+<!-- Project lightbox / slider -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-title" hidden>
+  <div class="lightbox-bar">
+    <div class="lightbox-meta">
+      <span class="lb-cat" id="lb-cat"></span>
+      <h3 id="lb-title"></h3>
+    </div>
+    <div class="lightbox-bar-right">
+      <span class="lb-counter" id="lb-counter"></span>
+      <button class="lb-close" id="lb-close" aria-label="Close gallery">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="lightbox-stage" id="lb-stage">
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18 9 12l6-6"/></svg>
+    </button>
+    <img id="lb-image" alt="">
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next image">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <div class="lightbox-foot">
+    <p class="lb-caption" id="lb-caption"></p>
+    <div class="lb-thumbs" id="lb-thumbs"></div>
+    <a class="lb-project-link" id="lb-project-link" href="#" target="_blank" rel="noopener" hidden>View full project</a>
+  </div>
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

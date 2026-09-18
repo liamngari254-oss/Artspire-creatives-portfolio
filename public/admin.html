@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artspire — CMS</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="admin-body">
+
+<!-- LOGIN SCREEN -->
+<div class="login-screen" id="login-screen">
+  <form class="login-card" id="login-form">
+    <img src="/assets/logo.png" alt="Artspire" class="login-logo">
+    <h1>CMS access</h1>
+    <p class="login-sub">Sign in to manage the Artspire website. This page is private — visitors to your site never see this screen.</p>
+    <label>Username
+      <input type="text" name="username" autocomplete="username" required>
+    </label>
+    <label>Password
+      <input type="password" name="password" autocomplete="current-password" required>
+    </label>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+    <p class="login-error" id="login-error"></p>
+  </form>
+</div>
+
+<!-- CMS APP (hidden until signed in) -->
+<div class="admin-app hidden" id="admin-app">
+  <aside class="admin-sidebar">
+    <img src="/assets/logo.png" alt="Artspire" class="admin-logo">
+    <nav class="admin-nav">
+      <button data-tab="hero" class="active">Hero</button>
+      <button data-tab="whatWeDo">What we do</button>
+      <button data-tab="projects">Portfolio</button>
+      <button data-tab="about">About / story</button>
+      <button data-tab="services">Services</button>
+      <button data-tab="caseStudies">Case studies</button>
+      <button data-tab="whyUs">Why work with us</button>
+      <button data-tab="testimonials">Testimonials</button>
+      <button data-tab="cta">Call to action</button>
+      <button data-tab="contact">Contact details</button>
+    </nav>
+    <div class="admin-sidebar-footer">
+      <a href="/" target="_blank" class="view-site-link">View live site ↗</a>
+      <button id="logout-btn" class="logout-btn">Sign out</button>
+    </div>
+  </aside>
+
+  <main class="admin-main">
+    <div class="admin-toast" id="admin-toast"></div>
+    <div id="tab-content"></div>
+  </main>
+</div>
+
+<script src="/js/admin.js"></script>
+</body>
+</html>

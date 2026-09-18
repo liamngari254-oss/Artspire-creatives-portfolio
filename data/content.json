@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "headline": "We turn ideas into visual experiences that connect, communicate, and sell.",
+    "subhead": "Artspire is a graphic design brand helping businesses, ministries, events and personal brands say something worth paying attention to.",
+    "image": "/assets/uploads/img-1789742384054-te5vbq.png",
+    "imageAlt": ""
+  },
+  "whatWeDo": {
+    "intro": "Every project starts with a message. Our job is to give it a shape people notice, understand, and remember.",
+    "items": [
+      "Social media graphics",
+      "Flyers & posters",
+      "Event & campaign graphics",
+      "Brochures & company profiles",
+      "Certificates & invitations",
+      "Church & ministry graphics",
+      "Political & campaign materials",
+      "Personal brand content",
+      "Marketing & promotional design"
+    ]
+  },
+  "about": {
+    "eyebrow": "The story behind Artspire",
+    "story": "Artspire started with a simple frustration: too many good ideas were losing to bad design. Businesses had something real to say and nowhere near enough visual weight to say it with. I started designing to close that gap — one flyer, one campaign, one certificate at a time — and Artspire grew out of that.",
+    "philosophy": "I believe design should never just decorate a message — it should carry it. A flyer should stop the scroll. A brochure should make a stranger trust you a little faster. A certificate should make someone feel seen. If a design looks good but does nothing for the person who made it, it hasn't done its job yet.",
+    "founder": "William — Founder & Lead Designer, Artspire"
+  },
+  "services": [
+    {
+      "title": "Brand & campaign graphics",
+      "description": "Social posts, flyers and posters built around one clear message and a consistent look, so your audience recognises you before they've finished reading."
+    },
+    {
+      "title": "Print & presence materials",
+      "description": "Brochures, company profiles, certificates and invitations that hold up in print and carry your brand well beyond the screen."
+    },
+    {
+      "title": "Ministry & event design",
+      "description": "Graphics for church programs, conferences and campaigns that feel intentional, not last-minute — built to match the weight of the message."
+    },
+    {
+      "title": "Personal brand content",
+      "description": "A visual identity for individuals — speakers, creators, candidates — that looks like one person, consistently, across every platform."
+    }
+  ],
+  "projects": [
+    {
+      "id": "seed-1",
+      "title": "Sample Project — replace me",
+      "category": "Social Media",
+      "image": "/assets/logo.png",
+      "description": "This is a placeholder project. Sign in at /admin to replace it with your real work — you can add as many images to one project as you like.",
+      "link": "",
+      "images": [
+        "/assets/logo.png"
+      ]
+    },
+    {
+      "title": "Birthday fiers ",
+      "category": "Social Media fliers",
+      "images": [
+        "/assets/uploads/img-1789742881991-wsum5q.jpg",
+        "/assets/uploads/img-1789742865914-cob3m3.jpg",
+        "/assets/uploads/img-1789742899453-gjvhd1.jpg"
+      ],
+      "image": "/assets/uploads/img-1789742881991-wsum5q.jpg",
+      "description": "A collection of custom birthday posters designed to celebrate special moments through bold, engaging, and visually appealing designs tailored to each client.",
+      "link": "",
+      "id": "proj-1789743230807-08gtwe"
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "seed-cs-1",
+      "title": "Sample case study — replace me",
+      "challenge": "Describe the problem the client came to you with.",
+      "approach": "Describe what you designed and why you made those choices.",
+      "result": "Describe the outcome — what changed for the client.",
+      "image": "/assets/logo.png"
+    }
+  ],
+  "whyUs": [
+    {
+      "title": "Design that's built to work, not just to look nice",
+      "description": "Every piece is judged against one question: does this actually communicate the message clearly?"
+    },
+    {
+      "title": "One designer, one consistent voice",
+      "description": "You work directly with the person designing your brand — no handoffs, no diluted vision."
+    },
+    {
+      "title": "Fast turnaround without cutting corners",
+      "description": "Campaigns and events don't wait, and neither do we."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "seed-t-1",
+      "name": "Sample Client",
+      "role": "Add their role or organisation",
+      "quote": "Replace this with a real testimonial from the CMS at /admin."
+    }
+  ],
+  "cta": {
+    "headline": "Have something to say? Let's give it a shape people notice.",
+    "buttonText": "Start a project",
+    "buttonLink": "#contact"
+  },
+  "contact": {
+    "email": "hello@liamngari254@gmail.com",
+    "phone": "+234 112075398",
+    "whatsapp": "https://wa.me/254112075398",
+    "whatsappMessage": "",
+    "instagram": "https://instagram.com/liam_l.x",
+    "location": "Available for projects worldwide"
+  }
+}
